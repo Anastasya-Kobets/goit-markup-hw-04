@@ -131,7 +131,7 @@ li {
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url("../images/hero.jpg"), linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -229,11 +229,13 @@ li {
   display: flex;
   height: 120px;
   margin-bottom: 30px;
-  background-size: contain;
+  background-size: 70px 70px;
   background-repeat: no-repeat;
   background-position: center;
+
   background-color: var(--team-color);
   border-radius: 4px;
+
 }
 .peculiarities-title:nth-child(1)::before{
   background-image: url("../images/antenna.svg");
@@ -393,16 +395,16 @@ li {
 }
 
 /*Футер*/
-.adresses {
+.addresses {
   font-style: normal;
   margin-top: 20px;
 }
 
-.adresses-footer-mail {
+.addresses-footer-mail {
   margin-top: 9px;
 }
 
-.adresses-footer-tel {
+.addresses-footer-tel {
   margin-top: 9px;
 }
 
