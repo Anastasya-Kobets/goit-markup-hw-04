@@ -5,6 +5,7 @@
   --light-color: #ffffff;
   --fon-color: #2f303a;
   --team-color: #f5f4fa;
+  --border-color: #ececec;
 }
 
 body {
@@ -76,7 +77,10 @@ li {
 }
 
 .header {
-  border: 1px solid #ececec;
+  border: 1px solid var(--border-color);
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .nav-header {
