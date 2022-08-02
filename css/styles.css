@@ -126,6 +126,7 @@ li {
 }
 
 .hero {
+  background-color: #C4C4C4;
   height: 600px;
   max-width: 1600px;
   margin-right: auto;
@@ -134,6 +135,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 4px;
   display: block;
   text-align: center;
   padding: 200px 0;
