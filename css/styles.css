@@ -84,7 +84,6 @@ li {
 
 .header {
   border: 1px solid var(--border-color);
-  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -288,6 +287,7 @@ li {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 .team-profession {
@@ -295,7 +295,6 @@ li {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  margin-top: 10px;
   margin-bottom: 16px;
 }
 .team-icon-list {
@@ -434,6 +433,7 @@ li {
 .clients {
   display: flex;
   gap: 30px;
+  margin-top: 50px;
 }
 
 .clients-icon {
@@ -444,7 +444,6 @@ li {
   align-items: center;
   justify-content: center;
   fill: var(--icon-color);
-  margin-top: 50px;
   display: flex;
 }
 
@@ -480,6 +479,7 @@ li {
 
 .footer-flex {
   display: flex;
+  margin-top: 20px;
 
 }
 .footer-box-icon{
@@ -521,7 +521,7 @@ li {
 }
 .footer-icon-item {
   margin-right: 10px;
-  margin-top: 20px;
+
 }
 img {
   display: block;
@@ -547,7 +547,9 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid var(--border-shadow-color);
+
 }
+
 
 .box-cart:hover,
 .box-cart:focus {
